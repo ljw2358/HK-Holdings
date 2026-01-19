@@ -1,63 +1,221 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>PHK Bank</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>PHK Bank | Public Human Kernel Bank</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      background-color: #000;
-      color: #fff;
+      margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background: #0b0f19;
+      color: #ffffff;
+      line-height: 1.7;
     }
-
+    header {
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.6em;
+      letter-spacing: 1px;
+    }
+    header p {
+      max-width: 900px;
+      margin: 20px auto 0;
+      color: #e5e7eb;
+      font-size: 1.05em;
+    }
     .container {
-      display: flex;
-      gap: 28px;
-      justify-content: center;
-      align-items: center;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
     }
-
-    .container a img {
-      width: 80px;
-      height: 80px;
-      cursor: pointer;
+    .section {
+      margin-bottom: 50px;
+      padding: 30px;
+      background: #111827;
+      border-radius: 14px;
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #38bdf8;
+      font-size: 1.8em;
+    }
+    .section h3 {
+      color: #93c5fd;
+      margin-top: 30px;
+    }
+    .section p {
+      color: #d1d5db;
+      margin-top: 14px;
+    }
+    .highlight {
+      color: #facc15;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 16px 30px;
+      background: #ff0000;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1em;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #cc0000;
+    }
+    .video-wrapper {
+      margin-top: 30px;
+    }
+    iframe {
+      width: 100%;
+      height: 520px;
+      border: none;
+      border-radius: 14px;
+    }
+    footer {
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #9ca3af;
+      border-top: 1px solid #1f2937;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+<header>
+  <h1>PHK Bank</h1>
+  <p>
+    PHK Bank는 단순한 금융 서비스가 아닙니다.<br/>
+    인간 중심 기술과 공공 금융 구조를 결합하여  
+    <span class="highlight">기본소득, 결제, 보상, 스테이킹</span>이 하나의 흐름으로 작동하는  
+    차세대 공공 디지털 금융 플랫폼입니다.
+  </p>
+</header>
 
-    <!-- YouTube -->
-    <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank">
-      <img src="youtube.png" alt="YouTube">
-    </a>
+<div class="container">
 
-    <!-- TikTok 1 -->
-    <a href="https://www.tiktok.com/@YOURID" target="_blank">
-      <img src="tiktok.png" alt="TikTok">
-    </a>
-
-    <!-- TikTok 2 -->
-    <a href="https://www.tiktok.com/@YOURID2" target="_blank">
-      <img src="tiktok.png" alt="TikTok">
-    </a>
-
+  <!-- PHK Bank 소개 -->
+  <div class="section">
+    <h2>PHK Bank란 무엇인가</h2>
+    <p>
+      PHK Bank(Public Human Kernel Bank)는  
+      인간을 중심에 두는 기술 철학을 기반으로 설계된 금융 구조입니다.
+    </p>
+    <p>
+      이 플랫폼은 단기적인 투기 금융이 아니라,  
+      <span class="highlight">실제 사용, 실제 참여, 실제 보상</span>이 발생하는 구조를 목표로 합니다.
+    </p>
+    <p>
+      PHK Bank에서는 자산이 단순히 “보관”되지 않습니다.  
+      자산은 결제에 사용되고, 보상으로 순환되며,  
+      장기적으로는 기본소득 구조로 연결됩니다.
+    </p>
   </div>
+
+  <!-- 기능 구조 -->
+  <div class="section">
+    <h2>PHK Bank 핵심 기능 구조</h2>
+
+    <h3>1. 스테이킹 (Staking)</h3>
+    <p>
+      PHK Bank의 스테이킹은 단순 락업이 아닙니다.  
+      생태계 안정성과 장기 참여자를 보호하기 위한 구조입니다.
+    </p>
+    <p>
+      스테이킹된 자산은 플랫폼 운영 안정성,  
+      결제·보상 풀 유지, 기본소득 재원 설계에 활용됩니다.
+    </p>
+
+    <h3>2. 결제 (Payment)</h3>
+    <p>
+      PHK Bank는 실사용 결제를 전제로 합니다.  
+      단순 이체가 아닌, 실제 서비스·콘텐츠·참여 기반 결제를 지향합니다.
+    </p>
+
+    <h3>3. 보상 (Reward)</h3>
+    <p>
+      플랫폼 기여자, 콘텐츠 참여자, 장기 사용자에게  
+      명확한 기준에 따라 보상이 분배됩니다.
+    </p>
+
+    <h3>4. 기본소득 (Basic Income)</h3>
+    <p>
+      PHK Bank의 최종 목표 중 하나는  
+      기술과 금융이 결합된 <span class="highlight">지속 가능한 기본소득 구조</span>입니다.
+    </p>
+  </div>
+
+  <!-- PWB2025 -->
+  <div class="section">
+    <h2>PWB2025 (Pi World Bank Program)</h2>
+    <p>
+      PWB2025는 PHK Bank 이전에 운영되던  
+      실험적 금융 프로그램입니다.
+    </p>
+    <p>
+      현재 PWB2025에서는 <span class="highlight">신규 스테이킹을 받지 않습니다.</span><br/>
+      이는 기존 참여자 보호와 구조 안정화를 위한 결정입니다.
+    </p>
+    <p>
+      기존에 PWB2025에 스테이킹한 사용자들은  
+      PHK Bank 구조로 <span class="highlight">연속성 있게 이전</span>할 수 있습니다.
+    </p>
+  </div>
+
+  <!-- 기존 스테이킹 보호 -->
+  <div class="section">
+    <h2>기존 스테이킹 참여자 보호 정책</h2>
+    <p>
+      기존에 <span class="highlight">3만4천 Pi 이상</span>을 스테이킹한 참여자들은  
+      어떠한 손해도 발생하지 않습니다.
+    </p>
+    <p>
+      해당 스테이킹은 무효화되지 않으며,  
+      PHK Bank의 장기 구조 설계 안에서 보호·연결됩니다.
+    </p>
+    <p>
+      이는 프로젝트 신뢰성과 참여자 책임을 지키기 위한  
+      기본 원칙입니다.
+    </p>
+  </div>
+
+  <!-- 유튜브 -->
+  <div class="section">
+    <h2>PHK Bank 공식 유튜브</h2>
+    <p>
+      PHK Bank의 비전, 구조, 스테이킹·보상·기본소득 개념은  
+      공식 유튜브 채널을 통해 지속적으로 공개됩니다.
+    </p>
+
+    <a class="btn" href="https://www.youtube.com/@YOUR_CHANNEL_ID" target="_blank">
+      ▶ PHK Bank 공식 유튜브 바로가기
+    </a>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 PHK Bank. All rights reserved.<br/>
+  PHK Bank is a public-oriented digital financial architecture.
+</footer>
 
 </body>
 </html>
